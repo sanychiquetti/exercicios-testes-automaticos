@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>TT2</projectKey>
+    <exportDate>2022-07-29 22:25:58 UTC</exportDate>
+    <folders>
+        <folder fullPath="CADASTRO_ALUNO" index="1"/>
+    </folders>
+    <testCases>
+        <testCase id="26393618" key="TT2-T8">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Sany Mara Chiquetti Garcia</createdBy>
+            <createdOn>2022-07-24 21:12:25 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[CADASTRO_ALUNO]]></folder>
+            <issues>
+                <issue>
+                    <key>TT2-5</key>
+                    <summary><![CDATA[Sany criar documentação de cenarios de testes]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Validar o campo: Cadastro do Aluno]]></name>
+            <objective><![CDATA[Validar que ao abrir a tela de cadastro de aluno, vou encontrar os seguintes campos: nome, matr&iacute;cula, ingresso, taxa de aproveitamento, bot&otilde;es de: cadastrar atividade complementar, salvar, buscar, limpar e excluir.]]></objective>
+            <precondition><![CDATA[Ter clicado no bot&atilde;o cadastrar aluno na tela inicial]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Estou na tela inicial, clico na tela cadastrar aluno]]></description>
+                        <expectedResult><![CDATA[Sou redirecionada para a tela de cadastro do aluno.<br />Onde devo visualizar os campos: nome, matricula, ingresso, taxa de aproveitamento.<br />Um campo de atividade complementar/curso, e os bot&otilde;es: adicionar atividade complementar, salvar, buscar, limpar e excluir.]]></expectedResult>
+                        <testData><![CDATA[Nome: Dino da Silva Sauro<br />Matricula:181122<br />Ingresso: 20222407]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="26393925" key="TT2-T9">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Sany Mara Chiquetti Garcia</createdBy>
+            <createdOn>2022-07-24 22:29:08 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[CADASTRO_ALUNO]]></folder>
+            <issues>
+                <issue>
+                    <key>TT2-8</key>
+                    <summary><![CDATA[SISGAC - Criar plano de testes de Cadastrar Aluno]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Validar o campo: Nome do aluno dentro do cadastro do aluno]]></name>
+            <objective><![CDATA[Validar que ao clicar no campo nome do aluno na p&aacute;gina de cadastro, est&aacute; v&aacute;lida para inserir o nome do aluno.]]></objective>
+            <precondition><![CDATA[Ter clicado no campo nome do aluno, dentro da p&aacute;gina: cadastro do aluno]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Clicar no campo: nome do aluno, estando na p&aacute;gina de cadastro]]></description>
+                        <expectedResult><![CDATA[Espero poder inserir o nome: Dino da Silva Sauro.]]></expectedResult>
+                        <testData><![CDATA[Nome do aluno: Dino da Silva Sauro]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="26393996" key="TT2-T10">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Sany Mara Chiquetti Garcia</createdBy>
+            <createdOn>2022-07-24 22:32:53 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[CADASTRO_ALUNO]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validar o campo: Matrícula dentro do cadastro do aluno]]></name>
+            <objective><![CDATA[Validar que no cadastro do aluno, o campo matr&iacute;cula esteja v&aacute;lido para receber com o n&uacute;mero da matricula do aluno.&nbsp;&nbsp;]]></objective>
+            <precondition><![CDATA[Clicar no campo: matr&iacute;cula,&nbsp;]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="26394440" key="TT2-T11">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Sany Mara Chiquetti Garcia</createdBy>
+            <createdOn>2022-07-24 22:46:56 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[CADASTRO_ALUNO]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validar o campo: Ingresso dentro do cadastro do aluno]]></name>
+            <objective><![CDATA[Validar que ao clicar no campo ingresso, o campo est&aacute; v&aacute;lido para inserir o n&uacute;mero do ingresso do aluno]]></objective>
+            <precondition><![CDATA[Ter clicado no campo ingresso do aluno, estando na p&aacute;gina de cadastro do aluno.]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Ter clicado no campo de ingresso dentro do cadastro do aluno]]></description>
+                        <expectedResult><![CDATA[Conseguir digitar o n&uacute;mero 20222407&nbsp;]]></expectedResult>
+                        <testData><![CDATA[numero de ingresso: 20222407]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="26394807" key="TT2-T12">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Sany Mara Chiquetti Garcia</createdBy>
+            <createdOn>2022-07-24 23:02:54 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[CADASTRO_ALUNO]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validar o campo: Taxa de Aproveitamento dentro do cadastro do aluno]]></name>
+            <objective><![CDATA[Validar que ao clicar no campo de taxa de Aproveitamento, o campo estar&aacute; valido para inserir a taxa de aproveitamento do aluno.&nbsp;]]></objective>
+            <precondition><![CDATA[Ter clicado no campo taxa de aproveitamento dentro da pagin&aacute;: cadastro de aluno]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Clicar no campo taxa de aproveitamento&nbsp;]]></description>
+                        <expectedResult><![CDATA[Conseguir inserir uma porcentagem&nbsp;]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="26395118" key="TT2-T13">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Sany Mara Chiquetti Garcia</createdBy>
+            <createdOn>2022-07-24 23:22:01 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[CADASTRO_ALUNO]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validar o campo: Adicionar Atividade Complementar na página de cadastro do Aluno]]></name>
+            <objective><![CDATA[Validar se o campo: Adicionar Atividade Complementar, est&aacute; v&aacute;lido para inserir informa&ccedil;&otilde;es.]]></objective>
+            <precondition><![CDATA[Ter clicado no campo: Adicionar Atividade Complementar na p&aacute;gina de cadastro do Aluno&nbsp;]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Clicar no campo: Adicionar Atividade Complementar na p&aacute;gina de cadastro do Aluno]]></description>
+                        <expectedResult><![CDATA[Abrir campo para inserir informa&ccedil;&otilde;es complementares&nbsp;]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="26395139" key="TT2-T14">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Sany Mara Chiquetti Garcia</createdBy>
+            <createdOn>2022-07-24 23:30:56 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[CADASTRO_ALUNO]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validar o botão: Salvar dentro do cadastro do aluno]]></name>
+            <objective><![CDATA[Validar que ao clicar no bot&atilde;o &quot;salvar&quot; dentro do cadastro do aluno, as informa&ccedil;&otilde;es ser&atilde;o salvas]]></objective>
+            <precondition><![CDATA[Clicar no bot&atilde;o &quot;salvar&quot; ap&oacute;s ter inserido as informa&ccedil;&otilde;es de cadastro necess&aacute;rias]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Preencher os campos de cadastro e clicar em salvar&nbsp;]]></description>
+                        <expectedResult><![CDATA[receber mensagem: Cadastro salvo com sucesso]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="26395353" key="TT2-T15">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Sany Mara Chiquetti Garcia</createdBy>
+            <createdOn>2022-07-24 23:41:53 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[CADASTRO_ALUNO]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validar o botão: Busca dentro do cadastro do aluno]]></name>
+            <objective><![CDATA[Validar se o bot&atilde;o &quot;busca&quot; est&aacute; abrindo um campo para inserir pesquisa]]></objective>
+            <precondition><![CDATA[Clicar no bot&atilde;o &quot;busca&quot; dentro do cadastro do aluno&nbsp;]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[clicar no bot&atilde;o busca dentro do cadastro do aluno]]></description>
+                        <expectedResult><![CDATA[abrir um campo para inserir uma pesquisa]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="26395455" key="TT2-T16">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Sany Mara Chiquetti Garcia</createdBy>
+            <createdOn>2022-07-24 23:46:04 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[CADASTRO_ALUNO]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validar o botão: "Limpar" dentro do cadastro do aluno]]></name>
+            <objective><![CDATA[Validar se o bot&atilde;o: &quot;limpar&quot; dentro do cadastro do aluno est&aacute; retornando com a tela n&atilde;o preenchida&nbsp;]]></objective>
+            <precondition><![CDATA[Estar na p&aacute;gina de cadastro do cliente com as informa&ccedil;&otilde;es de cadastro preenchidas, e clicar no bot&atilde;o &quot;limpar&quot;]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="26395565" key="TT2-T17">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Sany Mara Chiquetti Garcia</createdBy>
+            <createdOn>2022-07-24 23:52:14 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[CADASTRO_ALUNO]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Validar o botão: "Excluir" dentro do cadastro do aluno]]></name>
+            <objective><![CDATA[Validar que ao clicar no bot&atilde;o: &quot;excluir&quot; dentro do cadastro do aluno, o cadastro ser&aacute; exclu&iacute;do]]></objective>
+            <precondition><![CDATA[Estar na p&aacute;gina de cadastro do aluno, com um cadastro j&aacute; realizado, e clicar no bot&atilde;o &quot;excluir&quot;]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Entrar no cadastro do aluno Dino da Silva Sauro e clicar no bot&atilde;o excluir]]></description>
+                        <expectedResult><![CDATA[Visualizar a mensagem: Cadastro exclu&iacute;do com sucesso]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
