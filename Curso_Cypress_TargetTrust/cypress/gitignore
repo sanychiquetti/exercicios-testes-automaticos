@@ -1,0 +1,18 @@
+# Node artifact files
+node_modules/
+cypress/screenshots
+cypress/videos
+package-lock.json
+
+# Applications
+*.app
+*.exe
+*.war
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
