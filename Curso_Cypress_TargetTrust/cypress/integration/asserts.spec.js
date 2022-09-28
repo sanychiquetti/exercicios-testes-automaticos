@@ -48,8 +48,9 @@ it("List values", () => {
 })
 
 it("Compare Objects",() => {
-    const obj1 = [1, 2, 3];
-    const obj2 = [1, 2, 3];
+    const obj1 = [1, 2, 3]
+    const obj2 = [1, 2, 3]
 
+    //comparar o conteúdo de 2 objetos
     expect(obj1).to.deep.equal(obj2)
 })
