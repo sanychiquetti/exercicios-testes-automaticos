@@ -2,7 +2,7 @@
 
 describe("Testes com elementos web", () => {
 
-    //com o before ele vai rodar antes das classes o testes configurar nojson e aqui ele roda o subdominio
+    //com o before ele vai rodar antes das classes o testes configurar no json e aqui ele roda o subdominio
 beforeEach(() => {
    cy.visit("/elementsweb.html")
   })

@@ -2,21 +2,17 @@
 
 describe("Agrupamento de teste A", () => {
   it("Meu primeiro teste", () => {
-
   });
 
   it("Meu segundo teste", () => {
-
   });
 })
 
-describe("Agrupamento de testes A", () => {
+describe("Agrupamento de testes B", () => {
 
-    it("Meu primeiro teste", () => {
+  describe("Mais um agrupamento", () => {
+    it("Meu terceiro teste", () => {});
+  });
 
-    });
-
-    it("Meu segundo teste", () => {
-
-    });
-})
+  it("Meu quarto teste", () => {});
+});
