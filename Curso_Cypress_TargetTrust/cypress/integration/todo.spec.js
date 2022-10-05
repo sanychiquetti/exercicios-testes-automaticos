@@ -5,13 +5,17 @@ describe("Testes with Todo List", () => {
 beforeEach(() => {
    cy.visit("https://example.cypress.io/todo")
   })
-
   it("Should be todo new task", () => {
     const newTask = "Fazer exercícios de bugs"
-    cy.get("[data-test='new-todo']").type(`${newTask}{enter}`)
+
+    //cy.get("[data-test='new-todo']").type(`${newTask}{enter}`)
+    //comentei a sentença acima para fazer com xpath abaixo
+
+    //para achar e clicar  no elemento com xpath:
+    cy.xpath('//input[@class="new-todo"]').type(`${newTask}{enter}`)
+
     cy.get(".todo-list li").should("have.length", 3)
     cy.get(".todo-list li").last().should("have.text", `${newTask}`)
-
   })
 
   describe("Tests with Todo New Task created", () => {
