@@ -52,11 +52,17 @@ beforeEach(() => {
     })
 
     it("Should delete new task", () => {
-      cy.get(".todo-list").contains(`${newTask}`).parent()
-          .find("input").check()
+      cy.get(".todo-list")
+      .contains(`${newTask}`)
+      .parent()
+      .find("input")
+      .check()
 
-      cy.get(".todo-list").contains(`${newTask}`).parent()
-          .find("button").click({force:true})
+      cy.get(".todo-list")
+      .contains(`${newTask}`)
+      .parent()
+      .find("button")
+      .click({force:true})
 
       //validações tamanho e item da lista
       cy.get(".todo-list li").should("have.length", 2)
