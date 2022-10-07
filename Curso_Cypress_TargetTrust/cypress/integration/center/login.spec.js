@@ -10,7 +10,7 @@ describe("Login Tests", () =>{
     })
 
     it("Should be login successful", () => {
-        cy.login('trindade', 'cypress', 'a')
+        cy.login('trindade', 'cypress', 'MudarAsenha')
         cy.get(loc.MAIN.IMG_MENU).should("to.be.visible")
     })
     //vamos criar login inválido, pegue uma mensagem de erro para validar
