@@ -1,9 +1,0 @@
-{
-    //"baseUrl": "https://antoniotrindade.com.br/treinoautomacao"
-    //para aumentar a espera global para todos os teste, vou comentar para não dar erro nos meus teste:
-    //,"defaulCommandTimeout":3000
-
-    //para salvar os testes que dão erro:
-    //"screenshotsOnRunFailure": true,
-    //"screenshotsFolder": "cypress/screenshots"
-}
